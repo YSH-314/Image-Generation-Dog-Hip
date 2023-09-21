@@ -1,11 +1,11 @@
 # Install Packages
 ## Create a new environment in Anaconda and activate
-1. open anaconda prompt and type the following commands
-2. conda create --name '{env name}'  >conda create --prefix /{environment path}/{env name} python=3.8 numpy
-3. returns Proceed ([y]/n)? y
-4. conda activate /{environment path}/{env name} (self-defined env name)
-5. conda install jupyter notebook
-6. returns Proceed ([y]/n)? y
+1. open anaconda prompt and type the following commands  
+2. conda create --name '{env name}'  >conda create --prefix /{environment path}/{env name} python=3.8 numpy  
+3. returns Proceed ([y]/n)? y  
+4. conda activate /{environment path}/{env name} (self-defined env name)  
+5. conda install jupyter notebook  
+6. returns Proceed ([y]/n)? y  
 
 ## copy the folder 'denoising_diffusion_pytorch' to the following path \{environment path}\{env name}\Lib\site-packages
 
