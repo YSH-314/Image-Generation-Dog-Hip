@@ -1,9 +1,9 @@
 # Install Packages
-## Create a new environment in Anaconda and activate
-1. open anaconda prompt and type the following commands  
-2. conda create --name '{env name}'  >conda create --prefix /{environment path}/{env name} python=3.8 numpy  
+## Create a new environment in Anaconda and activate, open the Anaconda prompt, and type the following commands  
+1. move the path to D: type the command d:, after entering the prompt shows D:\>
+2. conda create --prefix /{environment path without D:}/{env name-self-defined env name} python=3.8 numpy  
 3. returns Proceed ([y]/n)? y  
-4. conda activate /{environment path}/{env name} (self-defined env name)  
+4. conda activate /{environment path}/{env name}   
 5. conda install jupyter notebook  
 6. returns Proceed ([y]/n)? y  
 
